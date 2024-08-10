@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_tutorial/color/color_change_screen.dart';
 import 'package:getx_tutorial/counter/counter_screen.dart';
+import 'package:getx_tutorial/faviourite/faviourite_screen.dart';
 import 'package:getx_tutorial/home_Screen.dart';
 import 'package:getx_tutorial/switch/switch_notification_screen.dart';
 
@@ -21,6 +22,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const SwitchNotificationScreen());
+        home: const FaviouriteScreen());
   }
 }
